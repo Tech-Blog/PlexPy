@@ -1,0 +1,8 @@
+HP_USER=plexpy      #$RUN_AS, username to run plexpy under, the default is plexpy
+# HP_HOME=          #$APP_PATH, the location of PlexPy.py, the default is /opt/plexpy
+# HP_DATA=          #$DATA_DIR, the location of plexpy.db, cache, logs, the default is /opt/plexpy
+# HP_PIDFILE=       #$PID_FILE, the location of plexpy.pid, the default is /var/run/plexpy/plexpy.pid
+# PYTHON_BIN=       #$DAEMON, the location of the python binary, the default is /usr/bin/python
+# HP_OPTS=          #$EXTRA_DAEMON_OPTS, extra cli option for plexpy, i.e. " --config=/home/plexpy/config.ini"
+# SSD_OPTS=         #$EXTRA_SSD_OPTS, extra start-stop-daemon option like " --group=users"
+HP_PORT=8181        #$PORT_OPTS, default is 8181 for the webserver, overrides value in config.ini
